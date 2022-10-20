@@ -3,5 +3,12 @@ import sys
 
 x = 0
 for line in sys.stdin:
+
     x += float(line)
+
+    try:
+        x += int(line)
+    except:
+        x += float(line)
+
     print(x)
