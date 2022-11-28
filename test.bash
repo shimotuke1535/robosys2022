@@ -10,16 +10,16 @@ ng()
 res=0
 
 ###I/O TEST###
-out=$(echo f | seq 5 | ./plus)
+out=$(seq 5 | ./plus | echo f)
 [ "${out}" = 15 ] || ng ${LINENO}
 
 ###STRINPUT TEST###
-out=$(echo f | echo あ | ./plus)
+out=$(echo あ | ./plu | echo f)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
 ###EMPTY INPUT TEST###
-out=$(echo f | echo  | ./plus)
+out=$(echo  | ./plus | echo f)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
  
