@@ -1,6 +1,6 @@
 # robosys2022
 ロボットシステム学の練習リポジトリ
-[test](https://github.com/shimotuke1535/robosys2022/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/shimotuke1535/robosys2022/actions/workflows/test.yml/badge.svg)
 <br>
 ##　必要なソフトウェア
 *　Python3
