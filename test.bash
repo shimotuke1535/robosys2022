@@ -1,5 +1,5 @@
 #!/bin/bash 
-# SPDX-FileCopyrightText: 2022 Ryuichi Ueda
+# SPDX-FileCopyrightText: 2022 Shimono Mao
 # SPDX-License-Identifier: This Softwere Package allowed Redistribution and Use by GPL 3.0
 ng()
 {
@@ -10,16 +10,16 @@ ng()
 res=0
 
 ###I/O TEST###
-out=$(seq 5 | ./plus)
+out=$(echo f | seq 5 | ./plus)
 [ "${out}" = 15 ] || ng ${LINENO}
 
 ###STRINPUT TEST###
-out=$(echo あ | ./plus)
+out=$(echo f | echo あ | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
 ###EMPTY INPUT TEST###
-out=$(echo  | ./plus)
+out=$(echo f | echo  | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
  
