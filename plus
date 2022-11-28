@@ -4,12 +4,9 @@ import sys
 
 x = 0
 for line in sys.stdin:
-    #if 'f' in line:
-        #print(x)
-        #break
     try:
         x += int(line)
     except:
         x += float(line)
-
+print(x)
     
