@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 # SPDX-FileCopyrightText: 2022 Shimono Mao <simonomao1535@gmail.com>
+# SPDX-License-Identifier: This Softwere Package allowed Redistribution and Use by GPL 3.0
 import sys
 
 x = 0
