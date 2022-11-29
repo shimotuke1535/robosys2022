@@ -16,17 +16,12 @@ out=$(seq 5 | ./plus)
 ###STRINPUT TEST###
 out=$(echo あ | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
-[ "${out}" = "" ] || ng ${LINENO}
+[ "${out}" = "ERROR!!!" ] || ng ${LINENO}
 
 ###EMPTY INPUT TEST###
 out=$(echo  | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
-[ "${out}" = "" ] || ng ${LINENO}
-
-###FINISH TEST###
-out=$(echo f | ./plus)
-[ "$?" = 1 ]      || ng ${LINENO}
-[ "${out}" = "" ] || ng ${LINENO}
-
+[ "${out}" = "ERROR!!!" ] || ng ${LINENO}
+ 
 [ "$res" = 0 ] && echo OK
 exit $res

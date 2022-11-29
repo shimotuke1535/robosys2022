@@ -9,6 +9,9 @@ for line in sys.stdin:
         break
     try:
         x += int(line)
+    except ValueError:
+        print("ERROR!!!")
     except:
         x += float(line)
+
 print(x)
