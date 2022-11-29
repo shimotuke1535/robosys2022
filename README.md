@@ -31,6 +31,8 @@ Ubuntu 22.04
 <br>
 Ubuntu 20.04
 <br>
+Python 3.7~3.10
+<br>
 ## ライセンス表示
 This Softwere Package allowed Redistribution and Use by GPL 3.0
 <br>
