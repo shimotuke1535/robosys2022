@@ -7,9 +7,10 @@
 ## 実行方法
 ①このリポジトリを任意のレジストリに`git clone`コマンドを用いてダウンロードする
 <br>
-こちらをコピー・アンド・ペーストでもできます→```html:cmd
-                                                 git clone https://github.com/shimotuke1535/robosys2022.git
-                                              ```
+こちらをコピー・アンド・ペーストでもできます↓
+```html:cmd
+git clone https://github.com/shimotuke1535/robosys2022.git
+```
 <br>
 ②ダウンロードしたリポジトリの中にある`plus`を実行する・・・```./plus```で起動します
 <br>
