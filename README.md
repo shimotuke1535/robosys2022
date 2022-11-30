@@ -29,8 +29,8 @@
 <br>
 ## 実行例
 ```html:Operation example
-  $ ./plus 
-  1
+$ ./plus 
+1
 2
 3
 4
