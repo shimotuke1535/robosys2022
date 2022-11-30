@@ -12,7 +12,11 @@
 git clone https://github.com/shimotuke1535/robosys2022.git
 ```
 <br>
-②ダウンロードしたリポジトリの中にある`plus`を実行する・・・```./plus```で起動します
+②ダウンロードしたリポジトリの中にある`plus`を実行する・・・
+```html:cmd
+  ./plus
+```
+で起動します
 <br>
 ## 操作方法
 計算する数値を入力します（この際整数でも実数でも構いません）
@@ -22,7 +26,22 @@ git clone https://github.com/shimotuke1535/robosys2022.git
 スペースや文字が入力された際は異常終了を避けるために自動終了します
 <br>
 ## 実行例
-
+```html:Operation example
+$ ./plus 
+1
+2
+3
+4
+5
+f
+15
+$ ./plus 
+1
+2
+3
+e 
+ERROR!!!
+```
 ## 実行環境
 Python3.8.10
 <br>
