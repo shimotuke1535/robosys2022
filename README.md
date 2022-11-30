@@ -29,7 +29,7 @@
 <br>
 ## 実行例
 ```html:Operation example
-$ ./plus 
+$ ./plus //正常動作時の実行例
 1
 2
 3
@@ -37,7 +37,7 @@ $ ./plus
 5
 f
 15
-$ ./plus 
+$ ./plus //自動停止の実行例
 1
 2
 3
