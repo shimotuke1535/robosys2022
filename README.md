@@ -12,7 +12,8 @@
   git clone https://github.com/shimotuke1535/robosys2022.git
 ```
 <br>
-②ダウンロードしたリポジトリの中にある`plus`を実行する・・・
+②ダウンロードしたレジストリに移動し、リポジトリ内に移動する。
+③ダウンロードしたリポジトリの中にある`plus`を実行する・・・
 
 ```html:cmd
   ./plus
