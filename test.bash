@@ -1,6 +1,6 @@
 #!/bin/bash 
 # SPDX-FileCopyrightText: 2022 Shimono Mao
-# SPDX-License-Identifier: This Softwere Package allowed Redistribution and Use by GPL 3.0
+# SPDX-License-Identifier:GPL-3.0-or-later
 ng()
 {
 	echo NG at Line $1
