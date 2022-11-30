@@ -14,7 +14,7 @@ git clone https://github.com/shimotuke1535/robosys2022.git
 <br>
 ②ダウンロードしたリポジトリの中にある`plus`を実行する・・・
 ```html:cmd
-./plus
+　　./plus
 ```
 で起動します
 <br>
