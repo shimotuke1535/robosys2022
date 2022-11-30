@@ -8,14 +8,16 @@
 ①このリポジトリを任意のレジストリに`git clone`コマンドを用いてダウンロードする
 <br>
 こちらをコピー・アンド・ペーストでもできます↓
-```shell:cmd
-git clone https://github.com/shimotuke1535/robosys2022.git
+```html:cmd
+  git clone https://github.com/shimotuke1535/robosys2022.git
 ```
 <br>
 ②ダウンロードしたリポジトリの中にある`plus`を実行する・・・
-```shell:cmd
-./plus
+
+```html:cmd
+  ./plus
 ```
+
 で起動します
 <br>
 ## 操作方法
@@ -27,8 +29,8 @@ git clone https://github.com/shimotuke1535/robosys2022.git
 <br>
 ## 実行例
 ```html:Operation example
-$ ./plus 
-1
+  $ ./plus 
+  1
 2
 3
 4
