@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # SPDX-FileCopyrightText: 2022 Shimono Mao <simonomao1535@gmail.com>
-# SPDX-License-Identifier: 	GPL-3.0-or-later
+# SPDX-License-Identifier: GPL-3.0-or-later
 import sys
 
 x = 0
