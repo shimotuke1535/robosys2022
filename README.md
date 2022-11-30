@@ -21,16 +21,12 @@
 ## 実行環境
 Python3.8.10
 <br>
-## 開発環境
-Python3.8.10
+Ubuntu20.04
 <br>
+## 開発環境
 VSCode1.73.1 for Linux
 <br>
 ## テスト環境
-Ubuntu 22.04
-<br>
-Ubuntu 20.04
-<br>
 Python 3.7~3.10
 <br>
 ## ライセンス表示
